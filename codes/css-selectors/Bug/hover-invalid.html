@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>CSS选择器常见问题 之 E:hover失效</title>
+<style type="text/css">
+#test {
+    background:red;
+}
+#test div { 
+    display:none;
+}
+#test:hover div{
+    display:block;
+    background:yellow;
+}
+</style>
+</head>
+<body>
+	<div id="test">触发我<div>看到我了吧</div></div>
+</body>
+</html>
